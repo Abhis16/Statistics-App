@@ -14,6 +14,7 @@
 		373A911A23358E420006362F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373A911823358E420006362F /* LaunchScreen.storyboard */; };
 		373A912523358E430006362F /* Statistics_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A912423358E430006362F /* Statistics_AppTests.swift */; };
 		373A913023358E430006362F /* Statistics_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A912F23358E430006362F /* Statistics_AppUITests.swift */; };
+		373A913E2335AA830006362F /* QDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A913D2335AA830006362F /* QDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		373A912B23358E430006362F /* Statistics AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Statistics AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		373A912F23358E430006362F /* Statistics_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics_AppUITests.swift; sourceTree = "<group>"; };
 		373A913123358E430006362F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373A913D2335AA830006362F /* QDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				373A910F23358E410006362F /* AppDelegate.swift */,
 				373A911123358E410006362F /* ViewController.swift */,
 				373A911323358E410006362F /* Main.storyboard */,
+				373A913D2335AA830006362F /* QDataView.swift */,
 				373A911623358E420006362F /* Assets.xcassets */,
 				373A911823358E420006362F /* LaunchScreen.storyboard */,
 				373A911B23358E430006362F /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				373A911223358E410006362F /* ViewController.swift in Sources */,
 				373A911023358E410006362F /* AppDelegate.swift in Sources */,
+				373A913E2335AA830006362F /* QDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

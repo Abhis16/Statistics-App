@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var MenuTitle: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func AddQData(_ sender: Any) {
+        MenuTitle.text = "Q-data"
+    }
+    
+    @IBAction func AddTwoWay(_ sender: Any) {
+        MenuTitle.text = "Two-way"
+    }
+    
 }
 
