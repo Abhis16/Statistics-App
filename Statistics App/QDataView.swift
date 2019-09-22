@@ -33,6 +33,8 @@ class QDataView: UIViewController, UITextFieldDelegate {
             (number: String) -> Double in
             return Double(number)!
         }
+        
+        
         //print(dataInts) used for debugging
         /*
         MeanOutput.text = String(findMean(data: dataDouble))
